@@ -1,0 +1,13 @@
+.delete-icon {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  border-radius: 50%;
+  padding: 2px;
+  background-color: var(--background);
+  cursor: pointer;
+}
+
+.delete-icon:hover {
+  visibility: visible;
+}

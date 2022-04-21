@@ -1,0 +1,10 @@
+.username-form {
+  flex: 1;
+  display: flex;
+  position: relative;
+}
+
+.form-helper-text {
+  position: absolute;
+  bottom: -30px;
+}

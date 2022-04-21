@@ -1,0 +1,22 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.label {
+  color: var(--dark);
+  font-weight: bold;
+}
+
+.input {
+  min-height: 20px;
+  max-height: 35px;
+  margin-right: 5px;
+  flex: 1;
+}
+
+.input-helper-text {
+  padding: 0;
+}

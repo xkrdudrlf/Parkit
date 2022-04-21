@@ -1,0 +1,110 @@
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: var(--light);
+  border-radius: 32px;
+}
+
+/* Input Container */
+.input-container {
+  position: relative;
+  background-color: var(--light);
+  flex: 1;
+  height: 100%;
+}
+
+.input-container:first-of-type {
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
+}
+
+.input-container:last-of-type {
+  display: flex;
+  align-items: center;
+  margin-right: 0;
+  padding-right: 20px;
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+
+/* Input */
+.input-label {
+  position: absolute;
+  top: 10px;
+  left: 17px;
+  font-family: "Montserrat";
+  font-size: 11px;
+  font-weight: bold;
+  color: var(--dark);
+  z-index: 2;
+}
+
+.search-input {
+  border: none;
+  border-radius: 32px;
+  height: 60px;
+  width: 220px;
+  padding: 14px 22px 0px;
+  background-color: var(--light);
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.search-input.dateTimePicker {
+  color: var(--dark);
+  font-size: 13.5px;
+}
+
+.rating {
+  display: flex;
+  padding-top: 28px;
+  width: 140px;
+}
+
+.search-btn {
+  margin-left: 10px;
+  height: 35px;
+  min-width: 30px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.search-icon {
+  margin: 0;
+  padding: 0;
+  font-size: 1.3rem;
+}
+
+.disable-filter {
+  color:var(--red);
+  cursor: pointer;
+}
+
+.enable-filter {
+  color: var(--green);
+  cursor:pointer;
+}
+
+.radius-dropdown-inputProps {
+  position: relative;
+  top: 6px;
+  left: 1.7px;
+  font-size: 13.5px;
+  width: 70px;
+  padding-left: 20px;
+}
+
+.radius-dropdown-menuProps {
+  margin: 0;
+  padding: 2px;
+  font-size: 13.5px;
+  display: flex;
+}
+
+.radius-dropdown-menuItem {
+  font-size: 13.5px;
+  margin-left: 20px;
+}

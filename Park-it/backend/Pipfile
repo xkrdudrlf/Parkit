@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Django = "*"
+djangorestframework = "*"
+dj-rest-auth = "==2.1.4"
+django-allauth = "*"
+django-cors-headers = "*"
+drf-spectacular = "*"
+djangorestframework-simplejwt = "*"
+tzdata = "*"
+django-booking = "*"
+google-i18n-address = "*"
+django-filter = "*"
+drf-writable-nested = "*"
+django-jazzmin = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

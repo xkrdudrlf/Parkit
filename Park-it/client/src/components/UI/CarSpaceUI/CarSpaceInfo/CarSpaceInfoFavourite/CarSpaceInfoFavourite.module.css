@@ -1,0 +1,14 @@
+.favourite {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.favourite:hover {
+  text-decoration: underline;
+}
+
+.content {
+  flex: 1;
+  height: 100%;
+}

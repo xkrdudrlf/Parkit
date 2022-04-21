@@ -1,0 +1,10 @@
+.spinner {
+  color: var(--green);
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}

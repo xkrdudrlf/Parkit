@@ -1,0 +1,14 @@
+.headerNavigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabs {
+  margin-right: 20px;
+  height: 100%;
+}
+
+.tab {
+  color: var(--dark);
+}

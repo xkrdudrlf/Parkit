@@ -1,0 +1,31 @@
+.details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.details__item {
+  display: flex;
+}
+
+.icon {
+  margin-right: 20px;
+}
+
+.details__item__content {
+  display: flex;
+  flex-direction: column;
+  min-height: 80px;
+}
+
+.notes {
+  flex: 1;
+  display: flex;
+}
+
+.notes-content{
+  flex: 1;
+  display: block;
+  max-height: 20vh;
+}

@@ -1,0 +1,24 @@
+.center-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-carousel {
+    display: flex;
+    align-items: center;
+    height: 220px !important;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    min-width: 120px;
+  }
+  
+  .btn:first-of-type {
+    margin-right: 50px;
+  }
+
+  .notes{
+    overflow-x: hidden;
+  }

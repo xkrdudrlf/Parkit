@@ -1,0 +1,8 @@
+.mainHeaderBrand {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}

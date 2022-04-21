@@ -1,0 +1,67 @@
+.form {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.input {
+  min-height: 20px;
+  max-height: 35px;
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 1;
+}
+
+.col__row {
+  flex: 1;
+}
+
+.col-horizontal {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.label {
+  color: var(--dark);
+  font-weight: bold;
+}
+
+.value {
+  color: var(--dark);
+}
+
+.card {
+  width: 200px;
+}
+
+.date {
+  width: 50px;
+}
+
+.cvc {
+  width: 50px;
+}
+
+.button {
+  height: 40px;
+  width: 150px;
+  justify-self: flex-start;
+}
+
+.last-row {
+  display: flex;
+  justify-content: space-between;
+}

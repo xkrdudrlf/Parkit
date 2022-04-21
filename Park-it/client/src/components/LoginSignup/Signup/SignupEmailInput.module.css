@@ -1,0 +1,7 @@
+.email-form {
+  flex: 1;
+}
+
+.email-form input {
+  width: 300px !important;
+}

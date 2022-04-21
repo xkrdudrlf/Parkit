@@ -1,0 +1,166 @@
+.body {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.mainContainer {
+  width: 95%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Title and button div*/
+.titleDiv{
+  width: 95%;
+  height: 90px;
+  display: flex;
+  margin-left: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title{
+  margin: 50px;
+  font-size: 50px;
+}
+
+.button{
+  margin-right: 20px;
+  font-size: 20px;
+  width: auto;
+  height: 50px;
+}
+
+/* LHS menu*/
+.viewsMenu{
+  width: 17%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--light);
+  flex-direction: column;
+  margin-left: 35px;
+  margin-top: 34px;
+  margin-right: 70px;
+  border-radius: 15px;
+}
+
+.tabContainer{
+  height: auto;
+  /* overflow-y: scroll; */
+}
+
+/* Entry in the menu (eg. list view, active listings, etc.) */
+.menu__tab {
+  text-transform: none;
+  min-height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 15px;
+}
+
+.tab-icon {
+  color: var(--light);
+  background-color: var(--green);
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 35px;
+}
+
+/* Listings side */
+.listingsContainer{
+  width: 95%;
+  margin-top: 5px;
+  margin-bottom:25px;
+  margin-left: 5px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Each listing */
+.listing{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* LHS - Description and information */
+.lhs{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.descriptor{
+  color: var(--green);
+}
+
+.description{
+  width: 90%;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.infoBar{
+  width: 90%;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.distance{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.walkIcon{
+  color: var(--green);
+  border-radius: 15px;
+  padding: 4px;
+  font-size: 35px;
+}
+
+.capacity_rate{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rate{
+  align-items: center;
+  color: var(--green);
+  
+}
+
+.capacity{
+  color: var(--grey);
+  margin-left: 10px;
+}
+
+.imageSection{
+  width: 10%;
+  margin-right: 120px;
+}
+
+.imageEntry{
+  width: 250px;
+  height: 100%;
+}

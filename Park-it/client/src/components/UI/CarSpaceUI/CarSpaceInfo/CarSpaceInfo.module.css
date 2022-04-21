@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.spinner {
+  color: var(--green);
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.error {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-btn {
+  width: 120px;
+  margin-top: 40px;
+}

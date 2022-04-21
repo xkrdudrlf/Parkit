@@ -1,0 +1,14 @@
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-item {
+  margin-bottom: 10px;
+  line-height: 1.5rem;
+}
+
+.btn {
+  width: 120px;
+  margin-left: 30px;
+}

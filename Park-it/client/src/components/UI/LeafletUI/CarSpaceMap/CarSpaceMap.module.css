@@ -1,0 +1,21 @@
+.center_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.spinner {
+  color: var(--green);
+}
+
+/* Map */
+.mapContainer {
+  flex: 1;
+}
+
+.mapElement {
+  width: 100%;
+  height: 100%;
+}

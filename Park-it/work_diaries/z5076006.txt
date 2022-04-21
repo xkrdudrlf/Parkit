@@ -1,0 +1,11 @@
+Week 1
+  Formed a group, decided on the car space rental project. Discussed possible novel functionalities.
+
+Week 2
+  Worked on writing epic and user stories. I worked on consumer relevant stories and completed writing them on the shared Google Doc. Finalised novel functionalities with group: decided on doing review section and bookmark/favourite system for users. Next week I am going to finalise the epic and user stories with group, and I will create storyboard and flow diagram specific to consumer stories and novel functionalities.
+
+Week 3
+  Finalised epic and user stories for consumer. Created all relevant storyboard pages for consumer + user account interfaces. Created storyboards for search page, search results pages, parking lot details, user reviews, favourites page. Created interfaces for payment and vehicle details - these were not used in the final storyboard version.
+
+Week 4
+  

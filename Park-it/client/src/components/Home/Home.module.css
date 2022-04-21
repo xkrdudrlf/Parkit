@@ -1,0 +1,28 @@
+.body {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--dark);
+  font-size: 2rem;
+  z-index: 99;
+}
+
+.slogan {
+  margin-bottom: 70px;
+  transform: skew(0deg, -6deg);
+  font-size: 40px;
+  color: var(--light);
+}
+
+.search-container {
+  background-image: url(https://images.unsplash.com/photo-1506521781263-d8422e82f27a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  height: 400px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  
+}

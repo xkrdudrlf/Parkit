@@ -1,0 +1,22 @@
+.review-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -3px;
+  margin-right: 40px;
+}
+
+.ratings {
+  display: flex;
+  align-items: center;
+}
+
+.avgRating {
+  margin-left: 3px;
+}
+
+.review-link {
+  margin-left: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}

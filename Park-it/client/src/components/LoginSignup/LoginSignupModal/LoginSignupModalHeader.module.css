@@ -1,0 +1,14 @@
+.loginModalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loginModalHeader__body {
+  display: flex;
+  align-items: center;
+}
+
+.loginModalHeader_btn {
+  margin-top: 5px;
+}

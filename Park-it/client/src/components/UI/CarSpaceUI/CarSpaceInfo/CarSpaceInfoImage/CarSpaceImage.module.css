@@ -1,0 +1,14 @@
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 300px;
+}
+
+.image img {
+  width: 80%;
+  border-radius: 15px;
+  object-fit: contain;
+}

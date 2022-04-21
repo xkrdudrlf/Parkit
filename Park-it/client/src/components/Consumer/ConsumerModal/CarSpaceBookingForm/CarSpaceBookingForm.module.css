@@ -1,0 +1,68 @@
+.form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.center-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Left */
+.leftSection {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.entry {
+  max-height: 80px;
+  margin-bottom: 30px;
+}
+
+.vertical {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown {
+  max-width: 400px;
+}
+
+.select {
+  padding-left: 5px;
+}
+
+.select-menu {
+  display: flex;
+  overflow: auto;
+  max-height: 130px;
+  padding: 10px 20px 10px;
+}
+
+.btn {
+  min-width: 120px;
+}
+
+.date-input:first-of-type {
+  margin-right: 30px;
+}
+
+/* Right */
+.rightSection {
+  min-width: 350px;
+  max-width: 450px;
+  flex: 1;
+  flex-direction: column;
+}
+
+.image-carousel {
+  display: flex;
+  align-items: center;
+  height: 220px !important;
+  margin-bottom: 30px;
+}

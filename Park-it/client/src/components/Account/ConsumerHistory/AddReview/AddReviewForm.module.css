@@ -1,0 +1,32 @@
+.form {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.titleDivider{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.inputContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.sameRowContainer{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.inputs {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.btn {
+  width: 120px;
+  margin-right: 40px;
+}

@@ -1,0 +1,12 @@
+.content {
+  color: var(--dark);
+}
+
+p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+p::first-letter {
+  margin-left: 5px;
+}
